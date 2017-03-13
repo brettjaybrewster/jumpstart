@@ -81,47 +81,136 @@ header.navbar.navbar-default .container-fluid .navbar-nav a li {
 
 /*FIRST GRID*/
 .first-grid {
-  border: 3px solid hsla(0, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(0, 100%, 40%, 0.8);*/
 }
 .first-grid .container-fluid {
-  border: 3px solid hsla(40, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(40, 100%, 40%, 0.8);*/
 }
 .first-grid .container-fluid .row.first-row {
-  border: 3px solid hsla(80, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(80, 100%, 40%, 0.8);*/
 }
-.first-grid .container-fluid .row.first-row .col-xs-4 {
-  border: 3px solid hsla(120, 100%, 40%, 0.8);
+.first-grid .container-fluid .row.first-row .col-xs-12 {
+  /*border: 3px solid hsla(120, 100%, 40%, 0.8);*/
+  margin-bottom: 20px;
+}
+.first-grid .container-fluid .row.first-row .col-xs-12 h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
 }
 .first-grid .container-fluid .row.second-row {
-  border: 3px solid hsla(160, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(160, 100%, 40%, 0.8);*/
 }
-.first-grid .container-fluid .row.second-row .col-xs-4 {
-  border: 3px solid hsla(200, 100%, 40%, 0.8);
+.first-grid .container-fluid .row.second-row .col-xs-6 {
+  /*border: 3px solid hsla(200, 100%, 40%, 0.8);*/
 }
+.first-grid .container-fluid .row.second-row .col-xs-6 img {
+  width: 100%;
+}
+.first-grid .container-fluid .row.second-row .col-xs-3 {
+  /*border: 3px solid hsla(200, 100%, 40%, 0.8);*/
+}
+.first-grid .container-fluid .row.second-row .col-xs-3 h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.first-grid .container-fluid .row.second-row .col-xs-3 h4 {
+  margin: .5rem 0;
+}
+.first-grid .container-fluid .row.second-row .col-xs-3 ul a {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 170ms linear 30ms;
+}
+.first-grid .container-fluid .row.second-row .col-xs-3 ul a:hover {
+  color: #399bd1;
+  text-decoration: none;
+}
+.first-grid .container-fluid .row.second-row .col-xs-3:nth-child(3) h3 {
+  color: #399bd1;
+}
+
+/*SECOND GRID*/
+.second-grid {
+  /*border: 3px solid hsla(0, 100%, 40%, 0.8);*/
+}
+.second-grid .container-fluid {
+  /*border: 3px solid hsla(40, 100%, 40%, 0.8);*/
+}
+.second-grid .container-fluid .row.first-row {
+  /*border: 3px solid hsla(80, 100%, 40%, 0.8);*/
+}
+.second-grid .container-fluid .row.first-row .col-xs-12 {
+  /*border: 3px solid hsla(120, 100%, 40%, 0.8);*/
+  margin-bottom: 20px;
+}
+.second-grid .container-fluid .row.first-row .col-xs-12 h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-top: 1rem;
+}
+.second-grid .container-fluid .row.second-row {
+  /*border: 3px solid hsla(160, 100%, 40%, 0.8);*/
+}
+.second-grid .container-fluid .row.second-row .col-xs-4 {
+  /*border: 3px solid hsla(200, 100%, 40%, 0.8);*/
+}
+.second-grid .container-fluid .row.second-row .col-xs-4 img {
+  width: 100%;
+}
+.second-grid .container-fluid .row.second-row .col-xs-4 h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.second-grid .container-fluid .row.second-row .col-xs-4 h4 {
+  margin: .5rem 0;
+}
+.second-grid .container-fluid .row.second-row .col-xs-4 p {
+  margin: .5rem 0 5.85rem 0;
+}
+
+
 
 /*FOOTER*/
 footer {
-  border: 3px solid hsla(0, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(0, 100%, 40%, 0.8);*/
+  background-color: #f3f3f3;
 }
 footer .container-fluid {
-  border: 3px solid hsla(40, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(40, 100%, 40%, 0.8);*/
 }
 footer .container-fluid .row.first-row {
-  border: 3px solid hsla(80, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(80, 100%, 40%, 0.8);*/
+  padding: 5.2rem 0;
 }
 footer .container-fluid .row.first-row .col-xs-12 {
-  border: 3px solid hsla(120, 100%, 40%, 0.8);
+  /*border: 3px solid hsla(120, 100%, 40%, 0.8);*/
   text-align: center;
 }
-footer .container-fluid .row.first-row .col-xs-12 a {
-  border: 3px solid hsla(160, 100%, 40%, 0.8);
+footer .container-fluid .row.first-row .col-xs-12 h2 {
+  /*border: 3px solid hsla(160, 100%, 40%, 0.8);*/
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.4rem;
 }
-footer .container-fluid .row.first-row .col-xs-12 i {
-  border: 3px solid hsla(200, 100%, 40%, 0.8);
+footer .container-fluid .row.first-row .col-xs-12 p {
+  /*border: 3px solid hsla(160, 100%, 40%, 0.8);*/
+  width: 42rem;
+  margin: 0 auto;
 }
-footer .container-fluid .row.second-row {
-  border: 3px solid hsla(240, 100%, 40%, 0.8);
+footer .container-fluid .row.first-row .col-xs-12 button.btn {
+  /*border: 3px solid hsla(160, 100%, 40%, 0.8);*/
+  font-size: 1.3rem;
+  width: 11.4rem;
+  margin-top: 2.8rem;
+  padding: 1rem 0 1rem 0;
+  background-color: #399bd1;
+  color: white;
+  opacity: 0.7;
+  transition: opacity 200ms linear 50ms;
 }
-footer .container-fluid .row.second-row .col-xs-6 {
-  border: 3px solid hsla(280, 100%, 40%, 0.8);
+footer .container-fluid .row.first-row .col-xs-12 button.btn:hover {
+  opacity: 1;
 }
